@@ -2,8 +2,8 @@ Package: neuRosim
 Type: Package
 Title: Functions to Generate fMRI Data Including Activated Data, Noise
         Data and Resting State Data
-Version: 0.2-12
-Date: 2015-01-09
+Version: 0.2-13
+Date: 2017-01-13
 Author: Marijke Welvaert with contributions from Joke Durnez, Beatrijs
         Moerkerke, Yves Rosseel and Geert Verdoolaege
 Maintainer: Marijke Welvaert <marijke.welvaert@gmail.com>
