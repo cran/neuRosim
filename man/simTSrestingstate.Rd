@@ -44,7 +44,7 @@ simTSrestingstate(nscan, base=0, TR, SNR=NULL, noise = c("none", "white",
 
 \examples{
 out <- simTSrestingstate(nscan=50, TR=2, SNR=1, noise="none")
-\dontrun{plot(out, type="l")}
+plot(out, type="l")
 \dontshow{rm(out)}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

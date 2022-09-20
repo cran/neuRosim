@@ -20,9 +20,7 @@
 \author{T.W. Yee}
 
 \examples{
-\dontrun{
 x <- rrice(n=10,vee=2,sigma=1)
-}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

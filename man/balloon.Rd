@@ -48,7 +48,7 @@ The microtime resolution ensures a high-precision generation of the response. Mo
 \seealso{\code{\link{canonicalHRF}}, \code{\link{gammaHRF}}}
 
 \examples{
-\dontrun{(
+\donttest{
 s <- rep(rep(0,10), rep(1,10), 5)
 T <- 100
 it <- 0.1

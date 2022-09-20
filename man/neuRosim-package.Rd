@@ -16,10 +16,10 @@ License: \tab GPL (>=2)\cr
 LazyLoad: \tab yes\cr
 }
 }
-\author{Marijke Welvaert with contributions from Joke Durnez, Beatrijs Moerkerke, Yves Rosseel and Geert Verdoolaege
+\author{Marijke Welvaert with contributions from Joke Durnez, Beatrijs Moerkerke, Yves Rosseel, Karsten Tabelow, and Geert Verdoolaege
 
 
-Maintainer: Marijke Welvaert <marijke.welvaert@gmail.com>
+Maintainer: Karsten Tabelow <karsten.tabelow@wias-berlin.de>
 }
 
 \references{Welvaert, M., Durnez, J., Moerkerke, B., Verdoolaege, G. and Rosseel, Y. (2011). \pkg{neuRosim}: An {R} Package for Generating fMRI Data. Journal of Statistical Software, 44(10), 1--18}
@@ -30,7 +30,7 @@ Maintainer: Marijke Welvaert <marijke.welvaert@gmail.com>
 design <- simprepTemporal(totaltime=200, onsets=seq(1,200,40),
 	 durations=20, TR=2, effectsize=1, hrf="double-gamma")
 ts <- simTSfmri(design=design, SNR=1, noise="white")
-\dontrun{plot(ts, type="l")}
+plot(ts, type="l")
 \dontshow{rm(design,ts)}
 ## Generate fMRI slice for block design with activation in 2 regions
 design <- simprepTemporal(totaltime=200, onsets=seq(1,200,40), 
@@ -39,6 +39,6 @@ region <- simprepSpatial(regions=2, coord=list(c(32,15),c(57,45)),
 	radius=c(10,7), form="sphere")
 out <- simVOLfmri(design=design, image=region, dim=c(64,64), 
 	SNR=1, noise="none")
-\dontrun{plot(out[32,15,], type="l")}
+plot(out[32,15,], type="l")
 \dontshow{rm(design,region,out)}
 }

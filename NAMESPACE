@@ -3,6 +3,16 @@ useDynLib("neuRosim", .registration=TRUE)
 # import required package
 import(deSolve)
 
+# import required functions
+importFrom("stats", "convolve", 
+                    "arima.sim", 
+                    "fft", 
+                    "pnorm", 
+                    "qgamma", 
+                    "rnorm", 
+                    "runif", 
+                    "sd")
+
 # export functions defined in this package
 export(
        "stimfunction",

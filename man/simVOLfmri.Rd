@@ -55,11 +55,8 @@ region <- simprepSpatial(regions=2, coord=list(c(32,15),c(57,45)),
 	radius=c(10,7), form="sphere", fading=TRUE)
 out <- simVOLfmri(design=design, image=region, dim=c(64,64), 
 	SNR=1, noise="none")
-\dontrun{plot(out[32,15,], type="l")}
-\dontrun{library(lattice)
-library(gplots)
-levelplot(out[,,10],scales=list(tck=0), 
-	col.regions=colorpanel(50,high="white",low="black"))}
+plot(out[32,15,], type="l")
+image(1:64, 1:64, out[,,10], col = grey(0:255/255))
 \dontshow{rm(design,region,out)}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

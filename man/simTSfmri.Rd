@@ -41,7 +41,7 @@ simTSfmri(design = list(), base=0, nscan = NULL, TR = NULL, SNR=NULL,
 design <- simprepTemporal(totaltime=200, onsets=seq(1,200,40), 
 	durations=20, effectsize=1, TR=2, hrf="double-gamma")
 ts <- simTSfmri(design=design, SNR=1, noise="white")
-\dontrun{plot(ts, type="l")}
+plot(ts, type="l")
 \dontshow{rm(design,ts)}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
