@@ -1,8 +1,8 @@
 citHeader("To cite neuRosim in publications use:")
 
-citEntry(entry = "Article",
+bibentry(bibtype = "Article",
   title        = "{neuRosim}: An {R} Package for Generating fMRI Data",
-  author       = personList(as.person("Marijke Welvaert"),
+  author       = c(as.person("Marijke Welvaert"),
                    as.person("Joke Durnez"),
                    as.person("Beatrijs Moerkerke"),
                    as.person("Geert Verdoolaege"),
@@ -20,5 +20,4 @@ citEntry(entry = "Article",
         "Journal of Statistical Software, 44(10), 1-18.",
         "URL http://www.jstatsoft.org/v44/i10/.")
 )
-
 

@@ -6,16 +6,6 @@
 }
 \description{The package allows users to generate fMRI time series or 4D data. Some high-level functions are created for fast data generation with only a few arguments and a diversity of functions to define activation and noise. For more advanced users it is possible to use the low-level functions and manipulate the arguments.
 }
-\details{
-\tabular{ll}{
-Package: \tab neuRosim\cr
-Type: \tab Package\cr
-Version: \tab 0.2-12\cr
-Date: \tab 2015-01-09\cr
-License: \tab GPL (>=2)\cr
-LazyLoad: \tab yes\cr
-}
-}
 \author{Marijke Welvaert with contributions from Joke Durnez, Beatrijs Moerkerke, Yves Rosseel, Karsten Tabelow, and Geert Verdoolaege
 
 

@@ -1,4 +1,4 @@
-1e6c1da31ac9bd68cd5e993edaf095bd *DESCRIPTION
+3a11e5ea8efb4771f582997f9adc3417 *DESCRIPTION
 593d51b3ab7645beeace6ee5512c3f93 *NAMESPACE
 1e9ae0e24f62ce86a57441d0bf2cc246 *R/balloon.R
 95e3b9d3ed2445bb049f3fe228b05287 *R/canonicalHRF.R
@@ -20,14 +20,14 @@ f123dde2781a53807975cce3652d5319 *R/specifyregion.R
 469d4ac2f067044c6e4ff9b87420c118 *R/tasknoise.R
 fb1fa1c4f3b5d6fa0a9d31689205ff2f *R/temporalnoise.R
 43dd6c7b06c34d6439fc3c788b71dcac *R/zzz.R
-6bab572ca22684f1c179e94c88b88d53 *inst/CITATION
+7e79772054e03afb7805e9955aa5509a *inst/CITATION
 ad4f572d9a038744b052e7de2a26e783 *man/GaussSmoothKernel.Rd
 260ba44c45156e3b88353e04f6f0411f *man/Sim.3D.GRF.Rd
 5b4a8be86a3036339ef63351463f873a *man/balloon.Rd
 f08b606084bb4a1a6f6ff274a9e93bbe *man/canonicalHRF.Rd
 27b051fa2c95fd3bf470327b9868c1ea *man/gammaHRF.Rd
 d0dd592bd90a5859fdc9f446eede8add *man/lowfreqdrift.Rd
-2db3fa6ac7886d8a249957cefa99328d *man/neuRosim-package.Rd
+0a9e479b082a31a1ed924798737e0851 *man/neuRosim-package.Rd
 6a813f0c87b7e98b3dade65035cd24ad *man/physnoise.Rd
 0c0b7f567fe250dbf2eeaa6a329bf550 *man/rrice.Rd
 893ff5e272531ca3f19b67db52d089dc *man/simTSfmri.Rd
